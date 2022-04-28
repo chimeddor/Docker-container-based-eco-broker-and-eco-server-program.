@@ -14,8 +14,8 @@ class Handler(socketserver.StreamRequestHandler):
         answer = ""
         if len(data['contents'])>0: 
                           ClientMultiSocket = socket.socket()
-                host = ' '
-                port = []
+                host = 'IP'
+                port = <[Port_number]>
                 port = random.choice(port)
                 try:
                     ClientMultiSocket.connect((host,port))
