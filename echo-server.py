@@ -4,8 +4,8 @@ import json
 from _thread import *
 
 ServerSideSocket = socket.socket()
-host = ' '
-port = 
+host = 'IP'
+port = <Port_Number>
 ThreadCount = 0
 try:
     ServerSideSocket.bind((host, port))
